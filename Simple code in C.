@@ -1,0 +1,20 @@
+Two numbers are entered. Code that compares these numbers and shows the larger one.
+#include <stdio.h>
+
+int main() {
+int a, b ;
+printf("Enter the number :");
+scanf("%i",&a);
+printf("Enter the number :");
+scanf("%i",&b);
+if(a>b){
+  printf("%i %i-is bigger than",a,b);
+}
+else if(a==b){
+  printf("%i %i-is equal to",a,b);
+}
+else{
+printf("%i %i-is smaller than",a,b);
+}
+    return 0;
+}
